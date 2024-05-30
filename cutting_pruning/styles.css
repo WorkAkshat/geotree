@@ -1,0 +1,162 @@
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #004859);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background: transparent;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left,
+.right {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    background-color: transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.search-container button {
+    padding: 10px;
+    border: none;
+    background: #feb47b;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.search-container button:hover {
+    background: #ff7e5f;
+}
+
+.vertical-line-container {
+    display: flex;
+    justify-content: center; /* Center the vertical line horizontally */
+    align-items: flex-start;
+    height: calc(100vh - 60px);
+    /* margin-left: 450px; */
+    /* margin-top: 80PX; */
+    padding: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    /* margin-left: 120px; */
+    height: 80%;
+    margin-left: 1220px; /* Add margin to create space around the vertical line */
+}
+
+.form-container {
+    width: 300px;
+    text-align: left;
+    /* margin-right: 1000px; */
+}
+
+.survey-form {
+    padding: 20px;
+    border: 1px;
+    border-radius: 15px;
+    background: transparent;
+    color: black;
+}
+
+.survey-form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #004859;
+}
+
+.survey-form input[type="text"],
+.survey-form textarea,
+.survey-form select {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.survey-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #feb47b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.survey-form button:hover {
+    background-color: #ff7e5f;
+}
+
+/* Right Container Styles */
+.right-container {
+    width: 300px;
+    text-align: left;
+    margin-left: 30px; /* Adjust the margin to create space */
+}
+
+/* Tracking Container Styles */
+.tracking-container {
+    background: rgba(255, 255, 255, 0.8);
+    height: 80px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.tracking-container .tracking-info {
+    /* Add styles as needed for the tracking details */
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #db3636;
+    border-radius: 5px;
+    
+}

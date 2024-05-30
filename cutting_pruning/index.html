@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-yBiBaIBQ5H3VIBbUoHZGQFWF/g7tw0AG16b+lZ8kmldAaM76m2RTnZ1v/KyE/HDs5VgeiI4T1zxk/mjoI5SNhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Page with Linear Gradient and Navbar</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="center">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+            <div class="right">
+                <i class="fas fa-bell"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="vertical-line-container">
+        <div class="form-container">
+            <h1 style="color: #004859;">Request</h1> <!-- Added h1 element with text "Request" and text color -->
+            <h2 style="color: #004859;">Create a Request</h2>
+            <form class="survey-form">
+                <input type="text" id="SurveyorName" name="SurveyorName" placeholder="Surveyor's Name" required>
+                <input type="text" id="treeId" name="treeId" placeholder="Enter Tree ID" required>
+                <select id="request" name="request" required>
+                    <option value="" disabled selected>Type of Request</option>
+                    <option value="value1">Value 1</option>
+                    <option value="value2">Value 2</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <input type="text" id="reason" name="reason" placeholder="Reason" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="right-container">
+            <h1 style="color: #004859;">Tracking</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter tracking ID...">
+                <button type="submit">Search</button>
+            </div>
+            <div class="tracking-container">
+                <div class="vertical-line2"></div>
+                <div class="tracking-info">
+                    <!-- Tracking details will be displayed here -->
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+</body>
+</html>

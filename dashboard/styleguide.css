@@ -1,0 +1,36 @@
+:root {
+    --grey-01: rgba(124, 130, 138, 1);
+    --background-color-light: rgba(255, 255, 255, 1);
+    --h3-center-alignment-font-family: "Nunito Sans", Helvetica;
+    --h3-center-alignment-font-weight: 400;
+    --h3-center-alignment-font-size: 16px;
+    --h3-center-alignment-letter-spacing: 0px;
+    --h3-center-alignment-line-height: normal;
+    --h3-center-alignment-font-style: normal;
+    --h3-left-alignment-font-family: "Nunito Sans", Helvetica;
+    --h3-left-alignment-font-weight: 400;
+    --h3-left-alignment-font-size: 16px;
+    --h3-left-alignment-letter-spacing: 0px;
+    --h3-left-alignment-line-height: normal;
+    --h3-left-alignment-font-style: normal;
+    --y-axis-font-family: "Nunito Sans", Helvetica;
+    --y-axis-font-weight: 400;
+    --y-axis-font-size: 12px;
+    --y-axis-letter-spacing: 0px;
+    --y-axis-line-height: normal;
+    --y-axis-font-style: normal;
+    --x-axis-font-family: "Nunito Sans", Helvetica;
+    --x-axis-font-weight: 400;
+    --x-axis-font-size: 12px;
+    --x-axis-letter-spacing: 0px;
+    --x-axis-line-height: normal;
+    --x-axis-font-style: normal;
+    --button-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    --collection-1-primary: rgba(3, 54, 255, 1);
+    --collection-1-black-900: rgba(33, 33, 33, 1);
+    --collection-1-gray500: rgba(158, 158, 158, 1);
+    --collection-1-gray200: rgba(238, 238, 238, 1);
+    --collection-1-white: rgba(255, 255, 255, 1);
+    --color-styles-foundation-primary-primary-500: rgba(5, 49, 92, 1);
+  }
+  
