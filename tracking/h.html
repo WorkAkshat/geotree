@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tracking</title>
-
+    <title>Tracking</title>
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="c.css">
 </head>
+
 <body>
-    <div class="search-container">
-        <input type="text" class="search-bar" placeholder="Enter Tracking ID">
-    </div>
 
     <div class="container">
-        <!-- Content goes here -->
-        <p>This is the content inside the container.</p>
+        <div class="search-container">
+            <!-- Search bar with search icon -->
+            <div class="search-bar">
+                <input type="search" class="search-input" placeholder="Search...">
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <div id="timeline" class="timeline">
+            <!-- Events will be dynamically inserted here -->
+        </div>
+        <div class="vertical-line"></div> <!-- Vertical line -->
     </div>
+
+    <!-- <div class="container">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+        <div id="timeline" class="timeline">
+             Events will be dynamically inserted here
+        </div>
+        <div class="car-icon" id="carIcon">
+            <i class="fa-solid fa-car"></i>
+        </div>
+    </div> -->
+    <script src="j.js"></script>
 </body>
+
 </html>
