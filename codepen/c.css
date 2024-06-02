@@ -1,0 +1,204 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(to bottom, #004859, #008c9e);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navbar-left i {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar {
+    flex-grow: 1;
+    max-width: 600px;
+    padding: 8px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #004859;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Notification icon and profile photo */
+.notification-icon,
+.profile-photo {
+    /* Styles for icons */
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    /* Styles for dropdown menu */
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #ffffff;
+    color: #004859;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-profile:hover .dropdown-menu {
+    display: block;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Vertical line */
+.vertical-line {
+    border-left: 2px solid #ffffff;
+    height: 100vh;
+}
+
+/* Form styles */
+.request-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.create-request {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #004859;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #004859;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #004859;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tracking section styles */
+.tracking-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: #004859;
+    margin-top: 20px;
+}
+
+.tracking-search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.tracking-data {
+    /* Styles for tracking data */
+}
+
+.right-panel .tracking-search {
+    margin-bottom: 40px; /* Additional space between search bar and tracking section */
+}
+
+h2 {
+    color: #004859;
+}
