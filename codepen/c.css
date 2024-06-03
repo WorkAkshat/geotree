@@ -202,3 +202,82 @@ textarea {
 h2 {
     color: #004859;
 }
+
+
+
+.vertical-line2 {
+	height: 400px;
+}
+
+.barcontainer {
+	background-color: #5e5e5e;
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+	margin-left: 100px;
+	width: 2px;
+	height: 320px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bar {
+	background-color: #03b42f;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border-top: 6px solid #fff;
+	box-sizing: border-box;
+	animation: grow 1.5s ease-out forwards;
+	transform-origin: top;
+}
+
+.iconDiv::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	right: -6px;
+	background-color: white;
+	border: 4px solid #7b7b7b;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.iconDiv:nth-child(1)::before {
+	content: "2001-01-01";
+	position: absolute;
+	right: 5px;
+	width: 90px;
+}
+.iconDiv:nth-child(2)::before {
+	content: "2002-02-02";
+	position: absolute;
+	right: 5px;
+	width: 100px;
+}
+.iconDiv:nth-child(3)::before {
+	content: "2003-03-03";
+	position: absolute;
+	right: 5px;
+	width: 100px;
+}
+.iconDiv:nth-child(4)::before {
+	content: "2004-04-04";
+	position: absolute;
+	right: 5px;
+	width: 100px;
+}
+
+.taskText {
+	margin-left: 50px;
+	width: 100px;
+}
+
+@keyframes grow {
+	from {
+		transform: scaleY(0);
+	}
+}
